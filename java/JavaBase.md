@@ -12,3 +12,7 @@
 1. jdk只能基于接口，利用拦截器加反射，cglib可以基于类，利用ASM修改字节码
 2. jdk生成的代理类实现了被代理类的接口，cglib生成的代理类继承了被代理类
 3. 大多数jdk动态代理性能更好
+
+[cglib源码分析](https://cloud.tencent.com/developer/article/1898468)
+
+[jdk动态代理源码分析](https://blog.csdn.net/CarryBest/article/details/112857330)
